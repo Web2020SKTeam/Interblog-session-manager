@@ -1,0 +1,17 @@
+﻿  正在验证源
+  正在将源远程复制到“202.120.40.8”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  ssmgr.cpp
+D:\Repositories\interblog-ssmgr\interblog_ssmgr\ssmgr.cpp(175,14): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Repositories\interblog-ssmgr\interblog_ssmgr\ssmgr.cpp(175,14): warning :     res = recv(fd, buf + pos, MAX_STREAM_LENGTH - pos, 0);
+D:\Repositories\interblog-ssmgr\interblog_ssmgr\ssmgr.cpp(175,14): warning :           ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Repositories\interblog-ssmgr\interblog_ssmgr\ssmgr.cpp(223,14): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Repositories\interblog-ssmgr\interblog_ssmgr\ssmgr.cpp(223,14): warning :     res = send(fd, str.c_str() + n, length - n, 0);
+D:\Repositories\interblog-ssmgr\interblog_ssmgr\ssmgr.cpp(223,14): warning :           ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+D:\Repositories\interblog-ssmgr\interblog_ssmgr\obj\x64\Debug\ssmgr.o : error : In function `std::thread::thread<void (&)()>(void (&)())':
+/usr/include/c++/7/thread(122): error : undefined reference to `pthread_create'
+collect2 : error : ld returned 1 exit status

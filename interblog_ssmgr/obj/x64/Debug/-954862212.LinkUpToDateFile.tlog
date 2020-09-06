@@ -1,0 +1,1 @@
+g++ -o "/root/projects/interblog_ssmgr/bin/x64/Debug/interblog_ssmgr.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/interblog_ssmgr/obj/x64/Debug/ssmgr.o
